@@ -18,16 +18,17 @@ MATERIALS, PUBLICATIONS, OR INFORMATION MADE AVAILABLE FOR THE CHALLENGE.
 
 CONTENTS:
 
-train_set/					Training data
-    X_train.csv				Training causal pairs
-	y_train.csv 			Training labels (0 for no causal link, 1 for A->B, -1 for B->A)
+train_set/ -> Training data
 
-valid_set/					Validation data
-	X_valid.csv				Validation causal pairs
+	X_train.csv -> Training causal pairs
+	y_train.csv -> Training labels (0 for no causal link, 1 for A->B, -1 for B->A)
+
+valid_set/ -> Validation data
+	X_valid.csv -> Validation causal pairs
 
 test_set.tar.gz.enc
-	X_test.csv				Test causal pairs
-	X_test_info.csv 		Test causal pairs information
+	X_test.csv -> Test causal pairs
+	X_test_info.csv -> Test causal pairs information
 
 
 You need to make submissions on the validation set to get a score. Submit a file looking like the y_train.csv file,
