@@ -20,12 +20,10 @@ CONTENTS:
 
 train_set/					Training data
     X_train.csv				Training causal pairs
-	X_train_info.csv 		Training causal pairs information
 	y_train.csv 			Training labels (0 for no causal link, 1 for A->B, -1 for B->A)
 
 valid_set/					Validation data
 	X_valid.csv				Validation causal pairs
-	X_valid_info.csv 		Validation causal pairs information
 
 test_set.tar.gz.enc
 	X_test.csv				Test causal pairs
