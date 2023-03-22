@@ -8,6 +8,7 @@
 -o-|-o-|-o-|-o-|-o-|-o-|-o-|-o-|-o-|-o-|-o-|-o-|-o-|-o-|-o-|-o-|-o-|-o-|-o-|-o-|-o-|-
 
 DISCLAIMER: ALL INFORMATION, SOFTWARE, DOCUMENTATION, AND DATA ARE PROVIDED "AS-IS" 
+\
 ISABELLE GUYON AND/OR OTHER CONTRIBUTORS DISCLAIM ANY EXPRESSED OR IMPLIED WARRANTIES, 
 INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS 
 FOR ANY PARTICULAR PURPOSE, AND THE WARRANTY OF NON-INFRIGEMENT OF ANY THIRD PARTY'S 
@@ -18,17 +19,21 @@ MATERIALS, PUBLICATIONS, OR INFORMATION MADE AVAILABLE FOR THE CHALLENGE.
 
 CONTENTS:
 
-train_set/ -> Training data
+• train_set/ -> Training data
+\
+&nbsp;&nbsp;• X_train.csv -> Training causal pairs
+\
+&nbsp;&nbsp;• y_train.csv -> Training labels (0 for no causal link, 1 for A->B, -1 for B->A)
 
-	X_train.csv -> Training causal pairs
-	y_train.csv -> Training labels (0 for no causal link, 1 for A->B, -1 for B->A)
+• valid_set/ -> Validation data
+\
+&nbsp;&nbsp;• X_valid.csv -> Validation causal pairs
 
-valid_set/ -> Validation data
-	X_valid.csv -> Validation causal pairs
-
-test_set.tar.gz.enc
-	X_test.csv -> Test causal pairs
-	X_test_info.csv -> Test causal pairs information
+• test_set.tar.gz.enc
+\
+&nbsp;&nbsp;• X_test.csv -> Test causal pairs
+\
+&nbsp;&nbsp;• X_test_info.csv -> Test causal pairs information
 
 
 You need to make submissions on the validation set to get a score. Submit a file looking like the y_train.csv file,
